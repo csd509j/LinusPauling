@@ -2,7 +2,7 @@
 /*
  * Theme update checker
  *
- * @since CSD Schools 1.1
+ * @since CSD Schools 1.2
  */
 require WP_CONTENT_DIR . '/plugins/plugin-update-checker-master/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
