@@ -1,7 +1,7 @@
 /*
 Theme Name: Linus Pauling Middle School
 Template: csdschools
-Version: 1.0.4
+Version: 1.0.5
 */
 a { color: #111e37; }
 
@@ -15,9 +15,13 @@ h2 { color: #111e37; }
 
 .subhead h3, .subhead h5 { color: #111e37; }
 
+.btn-primary, .gform_button, #loginform #wp-submit, .acf-form .acf-button { background-color: #111e37; }
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .gform_button:hover, .gform_button:active, .gform_button:focus, .acf-form .acf-button:hover, .acf-form .acf-button:active, .acf-form .acf-button:focus { background-color: #0a1120; }
+
 .btn-secondary { background-color: #f65f20; color: #ffffff; }
 
-.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus { background-color: #f34e0a; color: #ffffff; }
+.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus { background-color: #ee4d0a; color: #ffffff; }
 
 #header-top-global { background: #111e37; color: #ffffff; }
 
@@ -33,7 +37,7 @@ h2 { color: #111e37; }
 
 #nav-top-links { background-color: #111e37; }
 
-.ubermenu-toplinks .ubermenu-submenu.ubermenu-submenu-drop { background-color: #111e37; }
+#header-top-global .ubermenu-toplinks .ubermenu-submenu.ubermenu-submenu-drop { background-color: #111e37; }
 
 .carousel-wrap .item .carousel-caption .carousel-title { background-color: #f65f20; }
 
