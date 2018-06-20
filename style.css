@@ -1,11 +1,11 @@
 /*
 Theme Name: Linus Pauling Middle School
 Template: csdschools
-Version: 1.0.2
+Version: 1.0.3
 */
 a { color: #111e37; }
 
-a:hover { color: #0a1120; }
+a:hover, small a:hover, #footer-top small a:hover { color: #0a1120; }
 
 h1 a, h2 a, h3 a, h4 a, h5 a { color: #111e37; }
 
