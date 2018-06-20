@@ -5,9 +5,11 @@ Version: 1.0.3
 */
 a { color: #111e37; }
 
-a:hover, small a:hover, #footer-top small a:hover { color: #0a1120; }
+a:hover { color: #0a1120; }
 
-h1 a, h2 a, h3 a, h4 a, h5 a { color: #111e37; }
+h1 a, h2 a, h3 a, h4 a, h5 a { color: #f65f20; }
+
+.news-content a:hover { color: #ee4d0a; text-decoration: none; }
 
 h2 { color: #111e37; }
 
