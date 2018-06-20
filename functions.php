@@ -2,7 +2,7 @@
 /*
  * Theme update checker
  *
- * @since CSD Schools 1.2
+ * @since Linus Pauling 1.0
  */
 require WP_CONTENT_DIR . '/plugins/plugin-update-checker-master/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
@@ -16,7 +16,7 @@ $myUpdateChecker->setBranch('master');
 /*
  * Setup style sheets
  *
- * @since CSD Schools 1.0
+ * @since Linus Pauling 1.0
  */
 function lpms_theme_enqueue_styles() {
     
