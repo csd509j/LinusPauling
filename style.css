@@ -1,0 +1,119 @@
+/*
+Theme Name: Linus Pauling Middle School
+Template: csdschools
+*/
+.text-white { color: white !important; }
+
+a { color: #f65f20; }
+
+a:hover { color: #ee4d0a; }
+
+h1.entry-title { color: #333; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a { color: #111e37; }
+
+h2 { color: #111e37; }
+
+h3 { color: #333; }
+
+.subhead h5 { color: #111e37; }
+
+.subhead h3 { color: #111e37; }
+
+.btn-secondary { background-color: #f65f20; color: #ffffff; }
+
+.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus { background-color: #f34e0a; color: #ffffff; }
+
+#search-bar { background: #222222; }
+
+#search-bar input::-webkit-input-placeholder { /* Chrome/Opera/Safari */ color: white; }
+
+#search-bar input::-moz-placeholder { /* Firefox 19+ */ color: white; }
+
+#search-bar input:-ms-input-placeholder { /* IE 10+ */ color: white; }
+
+#search-bar input:-moz-placeholder { /* Firefox 18- */ color: white; }
+
+#search-bar .fa { color: white; }
+
+#header-top-global { background: #111e37; color: #ffffff; }
+
+#header-top-global li:hover, #header-top-global .fa:hover { background-color: #0b1324; }
+
+#header-global { background-color: #ffffff; color: #333333; }
+
+#header-top-global a { color: #ffffff; }
+
+#header-global .ubermenu-skin-vanilla .ubermenu-item-level-0 > .ubermenu-target { color: #696969; }
+
+#header-global .ubermenu-transition-fade .ubermenu-item .ubermenu-submenu-drop { background-color: #111e37; }
+
+#header-global .ubermenu .ubermenu-submenu-type-stack > .ubermenu-item-normal > .ubermenu-target { color: white; }
+
+#header-global .ubermenu .ubermenu-submenu-type-stack > .ubermenu-item-normal > .ubermenu-target:hover { color: #bfbfbf; }
+
+#header-global .ubermenu-skin-vanilla .ubermenu-submenu .ubermenu-item-header > .ubermenu-target { color: white; }
+
+#header-global .ubermenu-skin-vanilla .ubermenu-submenu { color: white; }
+
+#header-global .ubermenu-skin-vanilla .ubermenu-item-level-0 > .ubermenu-target:hover, #header-global .ubermenu-skin-vanilla .ubermenu-active > .ubermenu-target { color: white; background-color: #111e37; }
+
+#header-global .ubermenu-main .ubermenu-submenu .ubermenu-item-header.ubermenu-has-submenu-stack > .ubermenu-target { border-bottom: 1px solid #d7d7d7; }
+
+#nav-top-links { background-color: #111e37; }
+
+.ubermenu-toplinks .ubermenu-submenu.ubermenu-submenu-drop { background-color: #111e37; }
+
+.carousel-wrap .item .carousel-caption .carousel-title { background-color: #f65f20; }
+
+.carousel-wrap .item .carousel-caption .carousel-title h3 { color: #ffffff; }
+
+.carousel-wrap .carousel-indicators li { border: 1px solid #111e37; }
+
+.carousel-wrap .carousel-indicators .active { background-color: #111e37; }
+
+#cta-form .gform_button { background-color: #111e37; }
+
+.profile-content a h4 { color: #111e37; }
+
+#sidebar-first h2, #sidebar-first h4 { background: #111e37; }
+
+.sidebar-callouts .sidebar-callout-inner a h4 { color: #111e37; }
+
+#footer-top a { color: #111e37; }
+
+/* Events Calendar */
+.tribe-mini-calendar-event .list-date, .tribe-mini-calendar-event td.tribe-events-has-events.tribe-events-present, .tribe-mini-calendar-event .list-info h2 a { color: #111e37; }
+
+.tribe-mini-calendar-event .list-date, .tribe-mini-calendar-event td.tribe-events-has-events.tribe-events-present, .tribe-mini-calendar td.tribe-events-has-events.tribe-events-present, .tribe-mini-calendar td.tribe-events-has-events.tribe-mini-calendar-today { background-color: #f65f20 !important; }
+
+.tribe-mini-calendar-event .list-date .list-dayname { color: #f65f20 !important; }
+
+#tribe-events-content .tribe-events-tooltip h4, #tribe_events_filters_wrapper .tribe_events_slider_val { color: #111e37; }
+
+.single-tribe_events a.tribe-events-gcal, .single-tribe_events a.tribe-events-ical, .single-events-header h4, .single-events-header h2 { color: white; }
+
+.tribe-mini-calendar-event .list-info h2 a { color: #111e37; }
+
+.tribe-mini-calendar-event .list-date, .tribe-mini-calendar-event td.tribe-events-has-events.tribe-events-present { background: #111e37; }
+
+.tribe-mini-calendar-wrapper .tribe-mini-calendar .tribe-events-has-events.tribe-events-present a:hover, .tribe-mini-calendar-wrapper .tribe-mini-calendar td.tribe-events-has-events.tribe-mini-calendar-today a:hover { background-color: #f65f20; }
+
+.single-events-header, #tribe-events .tribe-events-button, #tribe-events .tribe-events-button:hover, #tribe_events_filters_wrapper input[type=submit], .tribe-events-button, .tribe-events-button.tribe-active:hover, .tribe-events-button.tribe-inactive, .tribe-events-button:hover, .tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-], .tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-] > a { background-color: #555555; }
+
+.tribe-events-list .type-tribe_events { border-bottom: 1px solid #cccccc; }
+
+.tribe-events-list-event-title a { color: #111e37; }
+
+.tribe-mini-calendar-event { border-bottom: 1px solid #cccccc; }
+
+.tribe-events-list-event-title a { color: #111e37; }
+
+#footer-top .tribe-events-viewmore, #footer-top .this-week-no-events-msg { color: #cccccc; }
+
+/* Messages */
+.tribe-events-notices { border-color: #111e37; color: white; background-color: #111e37; text-shadow: none; }
+
+@media (max-width: 767px) { #header-mobile { background-color: #111e37; }
+  #header-mobile .ubermenu .ubermenu-retractor { background-color: #111e37; }
+  #header-mobile .ubermenu .ubermenu-item { border-bottom: 1px solid #111e37; } }
