@@ -74,8 +74,6 @@ function languages_toggle(){
 						<li><a href="<?php echo $l['url']; ?>"><?php echo $l['translated_name']; ?></a></li>
 					<?php endif; ?>
 				<?php endforeach; ?>
-			<?php else: ?>
-				<li><a href="#" class="disabled"><?php echo $l['translated_name']; ?></a></li>
 			<?php endif; ?>
 			
 			<?php foreach($google_languages as $key => $val): ?>
