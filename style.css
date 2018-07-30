@@ -1,7 +1,7 @@
 /*
 Theme Name: Linus Pauling Middle School
 Template: csdschools
-Version: 1.0.6
+Version: 1.0.7
 */
 a { color: #111e37; }
 
@@ -76,3 +76,9 @@ h2 { color: #111e37; }
 @media (max-width: 767px) { #header-mobile { background-color: #111e37; }
   #header-mobile .ubermenu .ubermenu-retractor { background-color: #111e37; }
   #header-mobile .ubermenu .ubermenu-item { border-bottom: 1px solid #111e37; } }
+
+.translated-btn .dropdown-menu, #header-top-global .translated-btn li:hover { background-color: #f65f20; color: white; }
+
+.translated-btn .dropdown-menu > li > a { color: white; }
+
+.translated-btn .dropdown-menu > li > a:hover, .translated-btn .dropdown-menu > li > a:focus { background-color: transparent; color: white; }
