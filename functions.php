@@ -33,11 +33,14 @@ function lpms_theme_enqueue_styles() {
 add_action( 'wp_enqueue_scripts', 'lpms_theme_enqueue_styles' );
 
 function languages_toggle(){
+/*
 	global $wp;
 	$url = $wp->request;
   	$languages = icl_get_languages('skip_missing=1');
+*/
   	
   	$google_languages = array(
+	  	'googtrans(en|es)' => 'Spanish',
 	  	'googtrans(en|ar)' => 'ترجمه',
 	  	'googtrans(en|zh-CN)' => 'Chinese',
 	  	'googtrans(en|fr)' => 'French',
@@ -46,6 +49,7 @@ function languages_toggle(){
 	  	'googtrans(en|vi)' => 'Vietnamese'
   	);
   	
+/*
 	if(1 < count($languages)){
 		foreach($languages as $l) {
 			if($l['active']) {
@@ -60,6 +64,7 @@ function languages_toggle(){
 			$active = $google_languages[$key];
 		}		
 	}
+*/
 	?>
 
   	<div class="translated-btn">
@@ -68,6 +73,7 @@ function languages_toggle(){
 				<i class="fa fa-comment"></i> <?php echo $active; ?> <span class="caret"></span>
 			</button>
 			<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+<!--
 			<?php if(1 < count($languages)): ?>
 				<?php foreach($languages as $l): ?>
 					<?php if(!$l['active']): ?>
@@ -75,6 +81,7 @@ function languages_toggle(){
 					<?php endif; ?>
 				<?php endforeach; ?>
 			<?php endif; ?>
+-->
 			
 			<?php foreach($google_languages as $key => $val): ?>
 				<li><a href="<?php echo home_url(); ?>/#<?php echo $key; ?>" target="_blank"><?php echo $val; ?></a></li>
