@@ -70,7 +70,7 @@ function languages_toggle(){
   	<div class="translated-btn">
 		<div class="dropdown">
 			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-				<i class="fa fa-comment"></i> <?php echo $active; ?> <span class="caret"></span>
+				<i class="fa fa-comment"></i> Translate <span class="caret"></span>
 			</button>
 			<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
 <!--
