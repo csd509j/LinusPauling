@@ -57,14 +57,14 @@ function languages_toggle(){
 			}
 		}
 	} else {
+*/
 		if(strpos($url, "#") === false) {
 			$active = "English";
 		} else {
 			$key = explode("#", $url)[0];
 			$active = $google_languages[$key];
 		}		
-	}
-*/
+// 	}
 	?>
 
   	<div class="translated-btn">
