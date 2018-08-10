@@ -1,7 +1,7 @@
 /*
 Theme Name: Linus Pauling Middle School
 Template: csdschools
-Version: 1.1.4
+Version: 1.1.5
 */
 a { color: #111e37; }
 
@@ -90,3 +90,5 @@ h2 { color: #111e37; }
 #calendar.fc th { background-color: #111e37; }
 
 #calendar.fc .fc-row .fc-content-skeleton .fc-day-top.fc-today { background-color: #f65f20; }
+
+#logo img { height: 75px; }
