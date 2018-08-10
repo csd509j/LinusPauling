@@ -1,7 +1,7 @@
 /*
 Theme Name: Linus Pauling Middle School
 Template: csdschools
-Version: 1.1.3
+Version: 1.1.4
 */
 a { color: #111e37; }
 
@@ -21,7 +21,7 @@ h2 { color: #111e37; }
 
 .btn-primary, .gform_button, #loginform #wp-submit, .acf-form .acf-button { background-color: #111e37; }
 
-.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .gform_button:hover, .gform_button:active, .gform_button:focus, .acf-form .acf-button:hover, .acf-form .acf-button:active, .acf-form .acf-button:focus { background-color: #0a1120; }
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .gform_button:hover, .gform_button:active, .gform_button:focus, .acf-form .acf-button:hover, .acf-form .acf-button:active, .acf-form .acf-button:focus, #loginform #wp-submit:hover { background-color: #0a1120; }
 
 .btn-secondary { background-color: #f65f20; color: #ffffff; }
 
