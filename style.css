@@ -1,7 +1,7 @@
 /*
 Theme Name: Linus Pauling Middle School
 Template: csdschools
-Version: 1.1.8
+Version: 1.1.9
 */
 a { color: #111e37; }
 
@@ -47,35 +47,11 @@ h2 { color: #111e37; }
 
 .carousel-wrap .item .carousel-caption .carousel-title h3 { color: #ffffff; }
 
-.carousel-wrap .carousel-indicators li { border: 1px solid #111e37; }
-
-.carousel-wrap .carousel-indicators .active { background-color: #111e37; }
-
 #sidebar-first h2, #sidebar-first h4 { background: #111e37; }
 
 .sidebar-callouts .sidebar-callout-inner a h4 { color: #111e37; }
 
 #footer-top a { color: #111e37; }
-
-.tribe-mini-calendar-event .list-date, .tribe-mini-calendar-event td.tribe-events-has-events.tribe-events-present, .tribe-mini-calendar-event .list-info h2 a { color: #111e37; }
-
-.tribe-mini-calendar-event .list-date, .tribe-mini-calendar-event td.tribe-events-has-events.tribe-events-present, .tribe-mini-calendar td.tribe-events-has-events.tribe-events-present, .tribe-mini-calendar td.tribe-events-has-events.tribe-mini-calendar-today { background-color: #f65f20 !important; }
-
-.tribe-mini-calendar-event .list-date .list-dayname { color: #f65f20 !important; }
-
-#tribe-events-content .tribe-events-tooltip h4, #tribe_events_filters_wrapper .tribe_events_slider_val { color: #111e37; }
-
-.tribe-mini-calendar-event .list-info h2 a { color: #111e37; }
-
-.tribe-mini-calendar-event .list-date, .tribe-mini-calendar-event td.tribe-events-has-events.tribe-events-present { background: #111e37; }
-
-.tribe-mini-calendar-wrapper .tribe-mini-calendar .tribe-events-has-events.tribe-events-present a:hover, .tribe-mini-calendar-wrapper .tribe-mini-calendar td.tribe-events-has-events.tribe-mini-calendar-today a:hover { background-color: #f65f20; }
-
-.tribe-events-list-event-title a { color: #111e37; }
-
-.tribe-events-list-event-title a { color: #111e37; }
-
-.tribe-events-notices { border-color: #111e37; color: white; background-color: #111e37; text-shadow: none; }
 
 @media (max-width: 767px) { #header-mobile { background-color: #111e37; }
   #header-mobile .ubermenu .ubermenu-retractor { background-color: #111e37; }
