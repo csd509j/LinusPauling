@@ -1,0 +1,24 @@
+/*!
+Theme Name: Linus Pauling Middle School
+Template: csdschools
+heme URI: https://abidewebdesign.com
+Author: Abide Web Design
+Author URI: https://abidewebdesign.com
+Description: The official theme for Linus Pauling Middle School
+Version: 1.2.7
+*/
+
+// Theme colors
+$header-top-global-bg:		#111e37 !default;
+$header-top-global-color:	#ffffff !default;
+$header-global-bg:			#ffffff !default;
+$header-global-color:		#333333 !default;
+$brand-primary:         	#111e37 !default; 
+$brand-secondary:			#f65f20 !default;
+$brand-success:         	#5cb85c !default;
+$brand-info:            	#5bc0de !default;
+$brand-warning:         	#f0ad4e !default;
+$brand-danger:          	#d9534f !default;
+$header-color:				#ffffff !default;
+
+@import "school-colors";  
