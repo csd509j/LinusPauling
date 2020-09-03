@@ -206,10 +206,20 @@ h2 {
 #full-width-nav {
 	background-color: $brand-secondary;
 	a {
-		color: $text-color;
+		color: white;
 	}
 	.current_page_item:after {
 	    border-top-color: $brand-secondary;
+	}
+	.navbar-light {
+		.navbar-toggler {
+			color: white;
+		}
+	}
+	#subpage-nav-mobile {
+		a {
+			color: $text-color;
+		}
 	}
 }
 #tabs-block {
