@@ -108,14 +108,14 @@ get_header(); ?>
 					<div class="d-flex justify-content-between">
 						<div class="align-self-center">
 							<h2 class="mb-0"><?php _e('Latest News','csdschools'); ?></h2>
-							<div class="text-sm mb-1"><?php _e('The following ParentSquare posts are also available in Spanish in ParentSquare.'); ?></div>
+							<div class="text-sm mb-1 es-none"><?php _e('The following ParentSquare posts are also available in Spanish in ParentSquare.'); ?></div>
 						</div>
-						<div class="mb-1">
+						<div class="mb-1 align-self-center">
 							<small><a class="btn btn-primary" href="https://www.parentsquare.com/schools/<?php the_field('parentsquare_id', 'options'); ?>/feeds"><?php _e('More Updates','csdschools'); ?></a></small>	
 						</div>
 					</div>
 				</div>
-				<div id="ps-embed">
+				<div class="es-none">
 					<iframe src="https://www.parentsquare.com/schools/<?php the_field('parentsquare_id', 'options'); ?>/rss_widget" title="New School Posts From ParentSquare" height="441px" scrolling="no" frameborder="0" width="100%" style="border:none;overflow:hidden;"></iframe>
 				</div>
  			</div>
