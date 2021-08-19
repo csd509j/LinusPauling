@@ -108,7 +108,7 @@ get_header(); ?>
 					<div class="d-flex justify-content-between">
 						<div class="align-self-center">
 							<h2 class="mb-0"><?php _e('Latest News','csdschools'); ?></h2>
-							<div class="text-sm mb-1 es-none"><?php _e('The following ParentSquare posts are also available in Spanish in ParentSquare.','linus_pauling'); ?></div>
+							<div class="text-sm mb-1"><?php _e('The following ParentSquare posts are also available in Spanish in ParentSquare.','linus_pauling'); ?></div>
 						</div>
 						<div class="mb-1 align-self-center">
 							<small><a class="btn btn-primary" href="https://www.parentsquare.com/schools/<?php the_field('parentsquare_id', 'options'); ?>/feeds"><?php _e('More Updates','csdschools'); ?></a></small>	
